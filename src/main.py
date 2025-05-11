@@ -53,7 +53,7 @@ def ocr_lite(frame) -> Optional[Tuple[str, float]]:
         # elif len(result[0]) > 1:
         #     print(result)
         #     pass
-        #     return None  # FIXME: 这可能意味着有更好的结果，我们看看有没有选项
+        #     return None
         # else:
         #     return None
         if len(result[0]) == 1:
